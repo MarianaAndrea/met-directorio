@@ -1,11 +1,17 @@
-import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { PerfilComponent } from './perfil/perfil.component';
+import { NgModule } from '@angular/core';
 
-
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'perfil', component: PerfilComponent,
+    pathMatch: 'full'
+  },
+];
 
 @NgModule({
+  exports: [
+    RouterModule
+  ],
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
 })
 export class AppRoutingModule { }
