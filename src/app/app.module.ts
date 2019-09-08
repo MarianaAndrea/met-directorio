@@ -9,9 +9,10 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { PerfilComponent } from './perfil/perfil.component';
 
 import { BotonBusquedaComponent } from './busqueda/boton-busqueda/boton-busqueda.component';
-import { ResultadosComponent } from './resultados/resultados.component';
+import { ResultadosComponent } from './busqueda/resultados/resultados.component';
 import { FiltrosBusquedaComponent } from './busqueda/filtros-busqueda/filtros-busqueda.component';
-import { BusquedaComponent } from './busqueda/busqueda/busqueda.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
+
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { BusquedaComponent } from './busqueda/busqueda/busqueda.component';
     FormularioComponent,
     PerfilComponent,
     BotonBusquedaComponent,
+    ResultadosComponent,
     ResultadosComponent,
     FiltrosBusquedaComponent,
     BusquedaComponent
