@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImputBusquedaComponent } from './imput-busqueda.component';
+import { BusquedaComponent } from './busqueda.component';
 
-describe('ImputBusquedaComponent', () => {
-  let component: ImputBusquedaComponent;
-  let fixture: ComponentFixture<ImputBusquedaComponent>;
+describe('BusquedaComponent', () => {
+  let component: BusquedaComponent;
+  let fixture: ComponentFixture<BusquedaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ImputBusquedaComponent ]
+      declarations: [ BusquedaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ImputBusquedaComponent);
+    fixture = TestBed.createComponent(BusquedaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

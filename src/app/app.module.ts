@@ -8,10 +8,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { PerfilComponent } from './perfil/perfil.component';
 
-import { BotonBusquedaComponent } from './boton-busqueda/boton-busqueda.component';
-import { ImputBusquedaComponent } from './imput-busqueda/imput-busqueda.component';
+import { BotonBusquedaComponent } from './busqueda/boton-busqueda/boton-busqueda.component';
 import { ResultadosComponent } from './resultados/resultados.component';
-import { FiltrosBusquedaComponent } from './filtros-busqueda/filtros-busqueda.component';
+import { FiltrosBusquedaComponent } from './busqueda/filtros-busqueda/filtros-busqueda.component';
+import { BusquedaComponent } from './busqueda/busqueda/busqueda.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +20,9 @@ import { FiltrosBusquedaComponent } from './filtros-busqueda/filtros-busqueda.co
     FormularioComponent,
     PerfilComponent,
     BotonBusquedaComponent,
-    ImputBusquedaComponent,
     ResultadosComponent,
-    FiltrosBusquedaComponent
+    FiltrosBusquedaComponent,
+    BusquedaComponent
   ],
   imports: [
     BrowserModule,
