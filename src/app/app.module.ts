@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -21,7 +21,6 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     FormularioComponent,
     PerfilComponent,
     BotonBusquedaComponent,
-    ResultadosComponent,
     ResultadosComponent,
     FiltrosBusquedaComponent,
     BusquedaComponent
