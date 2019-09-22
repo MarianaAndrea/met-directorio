@@ -1,5 +1,16 @@
 .espacio-result{
-    background-color: darkgray;
+    background-color: rgba(231, 224, 224, 0.815);
     width: auto;
     height: auto;
+    padding: 20px;
 }
+.avatar-perfil{
+    width: 100px;
+    height: 100px;
+}
+.ti-Resul{
+    text-align: center;
+    margin:20px;
+}
+
+

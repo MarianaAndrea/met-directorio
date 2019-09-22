@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { NgModule } from '@angular/core';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -13,6 +14,8 @@ import { ResultadosComponent } from './busqueda/resultados/resultados.component'
 import { FiltrosBusquedaComponent } from './busqueda/filtros-busqueda/filtros-busqueda.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 
+import { CustomMaterialModule } from'./material/custom-material.module';
+
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     ResultadosComponent,
     FiltrosBusquedaComponent,
     BusquedaComponent
+ 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    CustomMaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

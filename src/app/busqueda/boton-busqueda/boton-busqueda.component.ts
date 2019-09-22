@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'boton-busqueda',
   templateUrl: './boton-busqueda.component.html',

@@ -1,8 +1,15 @@
 <picture class="container">
-<img src="assets/images/LogoColor.png" class="rounded mx-auto d-block" alt="Responsive image">
+    <img src="assets/images/LogoColor.png" class="rounded mx-auto d-block" alt="Responsive image">
 </picture>
 
-<div class="input-group-prepend boton-busqueda">
+<!-- <div class="input-group-prepend boton-busqueda">
 	<input type="text" class="form-control">
 	<button class="btn btn-outline-secondary" type="button">Buscar</button>
-</div>
+</div> -->
+
+<mat-form-field class="boton-busqueda">
+    <input matInput type="text" placeholder="BUSCAR PERFIL">
+    <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+	  <mat-icon>close</mat-icon>
+	</button>
+</mat-form-field>
