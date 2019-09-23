@@ -14,8 +14,8 @@ import { ResultadosComponent } from './components/resultados/resultados.componen
 import { FiltrosBusquedaComponent } from './components/filtros-busqueda/filtros-busqueda.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
 
-import { CustomMaterialModule } from'./material/custom-material.module';
-
+import { CustomMaterialModule } from './material/custom-material.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,14 +27,14 @@ import { CustomMaterialModule } from'./material/custom-material.module';
     ResultadosComponent,
     FiltrosBusquedaComponent,
     BusquedaComponent
- 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     CustomMaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,9 +9,9 @@ import { MatInputModule,
   MatIconModule,
   MatCardModule,
   MatSelectModule,
-  MatGridListModule
+  MatGridListModule,
+  MatStepperModule
 } from '@angular/material';
-
 
 
 
@@ -26,8 +26,8 @@ import { MatInputModule,
     MatIconModule,
     MatCardModule,
     MatSelectModule,
-    MatGridListModule
-    
+    MatGridListModule,
+    MatStepperModule
   ],
   exports: [
     MatInputModule,
@@ -37,7 +37,8 @@ import { MatInputModule,
     MatIconModule,
     MatCardModule,
     MatSelectModule,
-    MatGridListModule
+    MatGridListModule,
+    MatStepperModule
   ]
 })
 export class CustomMaterialModule { }
