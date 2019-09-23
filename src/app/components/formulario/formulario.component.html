@@ -1,24 +1,47 @@
 <button mat-raised-button (click)="isLinear = !isLinear" id="toggle-linear">
     {{!isLinear ? 'Enable linear mode' : 'Disable linear mode'}}
-  </button>
+</button>
+<div>
+<span><strong>CARGAR PERFIL</strong></span>
+<p>Creando tu perfil vas a formar parte de la base de datos de MetCba, una organización dedicada a fomentar e incrementar el desarrollo e inserción de mujeres y géneros no binarios en carreras tecnológicas.</p>
+</div>
   <mat-horizontal-stepper [linear]="isLinear" #stepper>
     <mat-step [stepControl]="firstFormGroup">
       <form [formGroup]="firstFormGroup">
-        <ng-template matStepLabel>Fill out your name</ng-template>
+        <ng-template matStepLabel>Ingresa los siguientes datos</ng-template>
         <mat-form-field>
-          <input matInput placeholder="Last name, First name" formControlName="firstCtrl" required>
+          <!-- <input matInput text placeholder="Ingresar nombre/s" formControlName="name" required> -->
+          <input matInput text placeholder="Nombre/s" formControlName="name" required>
         </mat-form-field>
+        <mat-form-field>
+          <!-- <input matInput text placeholder="Ingresar apellido/s" formControlName="lastname" required> -->
+          <input matInput text placeholder="Apellido/s" formControlName="lastname" required>
+        </mat-form-field>
+        <mat-form-field>
+          <!-- <input matInput email placeholder="Ingresar email" formControlName="email" required> -->
+          <input matInput email placeholder="Email" formControlName="email" required>
+        </mat-form-field>
+        <mat-form-field>
+          <!-- <input matInput password placeholder="Ingresar contraseña" formControlName="password" required> -->
+          <input matInput password placeholder="Contraseña" formControlName="password" required>
+        </mat-form-field>
+        <mat-checkbox>Acepto las condiciones de uso y la política de privacidad</mat-checkbox>
         <div>
-          <button mat-button matStepperNext>Next</button>
+          <button mat-button matStepperNext>Crear Cuenta</button>
         </div>
+        <!-- <span>Ingresar con:</span>
+        <i class="material-icons md-18">face</i> -->
       </form>
     </mat-step>
     <mat-step [stepControl]="secondFormGroup">
       <form [formGroup]="secondFormGroup">
-        <ng-template matStepLabel>Fill out your address</ng-template>
-        <mat-form-field>
-          <input matInput placeholder="Address" formControlName="secondCtrl" required>
+        <ng-template matStepLabel>Complete su dirección</ng-template>
+        <!-- <mat-form-field>
+          <input matInput placeholder="Zona geográfica - Residencia actual" formControlName="secondCtrl" required>
         </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="Disponibilidad para trasladarse" formControlName="traslado" required>
+        </mat-form-field> -->
         <div>
           <button mat-button matStepperPrevious>Back</button>
           <button mat-button matStepperNext>Next</button>

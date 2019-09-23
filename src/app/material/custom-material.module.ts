@@ -10,7 +10,8 @@ import { MatInputModule,
   MatCardModule,
   MatSelectModule,
   MatGridListModule,
-  MatStepperModule
+  MatStepperModule,
+  MatCheckboxModule
 } from '@angular/material';
 
 
@@ -27,7 +28,8 @@ import { MatInputModule,
     MatCardModule,
     MatSelectModule,
     MatGridListModule,
-    MatStepperModule
+    MatStepperModule,
+    MatCheckboxModule
   ],
   exports: [
     MatInputModule,
@@ -38,7 +40,8 @@ import { MatInputModule,
     MatCardModule,
     MatSelectModule,
     MatGridListModule,
-    MatStepperModule
+    MatStepperModule,
+    MatCheckboxModule
   ]
 })
 export class CustomMaterialModule { }

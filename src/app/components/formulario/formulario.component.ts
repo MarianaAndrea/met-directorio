@@ -15,7 +15,10 @@ export class FormularioComponent implements OnInit {
 
   ngOnInit() {
     this.firstFormGroup = this._formBuilder.group({
-      firstCtrl: ['', Validators.required]
+      name: ['', Validators.required],
+      lastname: ['', Validators.required],
+      email: ['', Validators.required],
+      password: ['', Validators.required]
     });
     this.secondFormGroup = this._formBuilder.group({
       secondCtrl: ['', Validators.required]

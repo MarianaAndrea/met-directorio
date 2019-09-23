@@ -6,4 +6,11 @@
   .example-container > * {
     width: 100%;
   }
+
+  span {
+    display: block;
+  }
   
+  mat-form-field {
+    display: flex;
+  }
