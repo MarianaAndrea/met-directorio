@@ -1,16 +1,25 @@
 .espacio-result{
-    background-color: rgba(231, 224, 224, 0.815);
-    width: auto;
-    height: auto;
-    padding: 20px;
+  margin-top:50px;
 }
-.avatar-perfil{
-    width: 100px;
-    height: 100px;
+.tabla-perfiles{
+  width: 100%;
+  background-color: rgba(231, 224, 224, 0.815);
 }
-.ti-Resul{
-    text-align: center;
-    margin:20px;
+.boton-perfil{
+  padding: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
+.card-body{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.card-img{
+  padding: 10px;
+  padding-left: 30px;
+}
+
+
 
 

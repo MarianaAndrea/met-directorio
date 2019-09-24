@@ -9,7 +9,10 @@ import { MatInputModule,
   MatIconModule,
   MatCardModule,
   MatSelectModule,
-  MatGridListModule
+  MatGridListModule,
+  MatTableModule,
+  MatPaginatorModule,
+  MatListModule
 } from '@angular/material';
 
 
@@ -26,8 +29,11 @@ import { MatInputModule,
     MatIconModule,
     MatCardModule,
     MatSelectModule,
-    MatGridListModule
-    
+    MatGridListModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatListModule
+
   ],
   exports: [
     MatInputModule,
@@ -37,7 +43,10 @@ import { MatInputModule,
     MatIconModule,
     MatCardModule,
     MatSelectModule,
-    MatGridListModule
+    MatGridListModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatListModule
   ]
 })
 export class CustomMaterialModule { }

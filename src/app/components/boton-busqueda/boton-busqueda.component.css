@@ -1,8 +1,20 @@
-.boton-busqueda {
+.input-busqueda {
   width: 80%;
   margin: 10%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.texto-busqueda{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.texto-busqueda h1{
+  font-size: 25px;
+
+
+}
+.texto-busqueda h2{
+  font-size: 20px;
 }
 
 
