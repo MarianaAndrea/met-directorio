@@ -1,3 +1,7 @@
+.nav-bar{
+  background-color: white;
+  height: 80px;
+}
 .logo-nav{
     width: 150px;
     height: 50px;
@@ -5,3 +9,4 @@
 .boton-sign-in{
   float: right;
 }
+

@@ -10,14 +10,11 @@ import { MatInputModule,
   MatCardModule,
   MatSelectModule,
   MatGridListModule,
-<<<<<<< HEAD
   MatTableModule,
   MatPaginatorModule,
-  MatListModule
-=======
+  MatListModule,
   MatStepperModule,
   MatCheckboxModule
->>>>>>> 51a6e28b96add1862fd15c97d013ae6058ce8349
 } from '@angular/material';
 
 
@@ -34,15 +31,12 @@ import { MatInputModule,
     MatCardModule,
     MatSelectModule,
     MatGridListModule,
-<<<<<<< HEAD
     MatTableModule,
     MatPaginatorModule,
-    MatListModule
-
-=======
+    MatListModule,
     MatStepperModule,
     MatCheckboxModule
->>>>>>> 51a6e28b96add1862fd15c97d013ae6058ce8349
+
   ],
   exports: [
     MatInputModule,
@@ -53,14 +47,11 @@ import { MatInputModule,
     MatCardModule,
     MatSelectModule,
     MatGridListModule,
-<<<<<<< HEAD
     MatTableModule,
     MatPaginatorModule,
-    MatListModule
-=======
+    MatListModule,
     MatStepperModule,
     MatCheckboxModule
->>>>>>> 51a6e28b96add1862fd15c97d013ae6058ce8349
   ]
 })
 export class CustomMaterialModule { }
