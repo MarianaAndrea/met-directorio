@@ -16,6 +16,7 @@ import { BusquedaComponent } from './components/busqueda/busqueda.component';
 
 import { CustomMaterialModule } from './material/custom-material.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BotonBusquedaComponent,
     ResultadosComponent,
     FiltrosBusquedaComponent,
-    BusquedaComponent
+    BusquedaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
