@@ -14,7 +14,8 @@ import { MatInputModule,
   MatPaginatorModule,
   MatListModule,
   MatStepperModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatDividerModule
 } from '@angular/material';
 
 
@@ -35,7 +36,8 @@ import { MatInputModule,
     MatPaginatorModule,
     MatListModule,
     MatStepperModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatDividerModule
 
   ],
   exports: [
@@ -51,7 +53,8 @@ import { MatInputModule,
     MatPaginatorModule,
     MatListModule,
     MatStepperModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatDividerModule
   ]
 })
 export class CustomMaterialModule { }

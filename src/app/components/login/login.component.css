@@ -1,8 +1,20 @@
-
 :host {
   display: flex;
   justify-content: center;
   margin: 100px 0px;
+
+}
+
+.divisor {
+  width: 10%;
+  height: 3px;
+  margin: auto;
+  background-color: #ff5d5d !important;
+  margin-bottom: 30px;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-infix {
+  padding: 0;
 }
 
 .mat-form-field {
@@ -10,8 +22,17 @@
   min-width: 300px;
 }
 
-mat-card-title,
-mat-card-content {
+.mat-form-field :hover {
+  color: rgb(94, 90, 90);
+}
+
+.mat-card-title {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+mat-card-title, mat-card-content {
   display: flex;
   justify-content: center;
 }
@@ -23,7 +44,20 @@ mat-card-content {
   background-color: red;
 }
 
-.button {
-  display: flex;
-  justify-content: flex-end;
+.login-bt {
+  display: block;
+  color: #ff5d5d !important;
+}
+
+.boton {
+  width: 100%;
+  margin-top: 20px;
+  color: azure;
+  height: 50px;
+  font-size: 20px;
+}
+.mat-card{
+  -webkit-box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.24);
+  box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.24);
 }

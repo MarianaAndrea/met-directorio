@@ -3,16 +3,16 @@
     <img src="assets/images/LogoColor.png" class="rounded mx-auto d-block" alt="Responsive image">
   </picture>
 
-  <!-- <div class="input-group-prepend boton-busqueda">
-	<input type="text" class="form-control">
-	<button class="btn btn-outline-secondary" type="button">Buscar</button>
-</div> -->
-<div class="container texto-busqueda">
-  <h1>BUSQUEDA DE PERFILES</h1>
-  <h2>Encontrá al profesional que estás buscando.</h2>
-</div>
-  <mat-form-field class=" container input-busqueda">
-    <input matInput type="text" placeholder="BUSCAR PERFIL">
+  <div class="container texto-busqueda">
+    <picture>
+      <img src="" alt="">
+    </picture>
+    <h1>BUSQUEDA DE PERFILES</h1>
+    <h2>Encontrá al profesional que estás buscando.</h2>
+  </div>
+  <mat-form-field appearance="outline" class=" container input-busqueda">
+    <mat-label>Buscar Perfil</mat-label>
+    <input matInput type="text" placeholder="">
     <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
       <mat-icon>close</mat-icon>
     </button>
